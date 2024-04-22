@@ -6,28 +6,14 @@
 
 Add the following snippet in your `Move.toml`
 
-For mainnet:
-
 ```toml
 [dependencies.SuiTears]
 git = "https://github.com/interest-protocol/suitears.git"
 subdir = "contracts"
-rev = "main"
+rev = "testnet-1.0.0-beta"
 
 [addresses]
-suitears = "0xf7334947a5037552a94cee15fc471dbda71bf24d46c97ee24e1fdac38e26644c"
-```
-
-For testnet:
-
-```toml
-[dependencies.SuiTears]
-git = "https://github.com/interest-protocol/suitears.git"
-subdir = "contracts"
-rev = "testnet"
-
-[addresses]
-suitears = "0xbd097359082272fdef8e9ce53815264d0142d6209f3f0cb48ee31c10aaf846d5"
+suitears = "0x54a25034e68e4f7977f1f11c3c8eba99d87543248f937927fc9e8833cb5e39c4"
 ```
 
 ## Contracts
