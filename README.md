@@ -10,10 +10,10 @@ Add the following snippet in your `Move.toml`
 [dependencies.SuiTears]
 git = "https://github.com/interest-protocol/suitears.git"
 subdir = "contracts"
-rev = "testnet-1.0.0-beta"
+rev = "mainnet-1.0.0-beta"
 
 [addresses]
-suitears = "0x54a25034e68e4f7977f1f11c3c8eba99d87543248f937927fc9e8833cb5e39c4"
+suitears = "0x7ba65fa88ed4026304b7f95ee86f96f8169170efe84b56d465b4fe305e2486cb"
 ```
 
 ## Contracts
